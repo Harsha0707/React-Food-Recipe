@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+  color: #252525;
+  font-weight: 400;
+  margin: 0 !important;
+  background-color: #f7f2e9;
+}
+
+.shop-name {
+  color: #fff;
+  margin: 0;
+}
+
+.home-page-link svg {
+  color: #fff;
+  width: 28px;
+  height: 28px;
+}
+
+button svg {
+  color: #fff;
+  width: 18px;
+  height: 18px;
+}
+
+.shop-name {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.search-result-text-err,
+.letter-result-not-found,
+.back-btn-block,
+.text-center {
+  text-align: center;
+}
+
+.aplhabet-list {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  .shop-name {
+    font-size: 20px;
+  }
+}
